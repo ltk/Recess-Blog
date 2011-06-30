@@ -1,0 +1,495 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Readme</title>
+</head>
+<style type="text/css">
+<!--
+body {
+font-family: Lucida Grande, Verdana, sans-serif;
+}
+
+code {
+font-size: 1.3em
+}
+
+div.success {
+background: #0f0;
+width: 50%;
+margin: 0 auto;
+padding: 1px 10px;
+border: 3px solid #0d0;
+}
+
+div.error {
+padding: 1px 10px;
+margin: 30px auto;
+}
+
+div.error p {
+font-weight: bold;
+}
+
+div.error ul {
+list-style: square;
+}
+
+div.fatal {
+background: #faa;
+border: 3px solid #d00;
+}
+
+div.warning {
+background: #f60;
+border: 3px solid #e40;
+}
+
+div.note {
+background: #5cf;
+border: 3px solid #3ad;
+}
+
+-->
+</style>
+<body>
+	<hr />
+
+	<h1>Better Tag Cloud</h1>
+
+	<p><em>A better tag cloud. Lots of configuration options, a widget and a shortcode to add tag clouds to posts and pages.</em></p>
+
+	<hr />
+
+	<p>
+		<strong>Contributors:</strong> <a href="http://www.nkuttler.de/">nkuttler</a>, <a href="http://www.nicolaskuttler.de">Nicolas Kuttler (de)</a><br />
+	<strong>Donate link:</strong> <a href="http://www.nkuttler.de/wordpress/donations/">http://www.nkuttler.de/wordpress/donations/</a> <br />
+	<strong>Tags:</strong> <a href="http://www.nkuttler.de/nktagcloud/">tag</a>, <a href="http://www.nkuttler.de/nktagcloud/">tags</a>, <a href="http://www.nkuttler.de/nktagcloud/">tag cloud</a>, <a href="http://www.nkuttler.de/nktagcloud/">tagging</a>, <a href="http://www.nkuttler.de/nktagcloud/">admin</a>, <a href="http://www.nkuttler.de/nktagcloud/">plugin</a>, <a href="http://www.nkuttler.de/nktagcloud/">widget</a>, <a href="http://www.nkuttler.de/nktagcloud/">widgets</a>, <a href="http://www.nkuttler.de/nktagcloud/">shortcode</a>, <a href="http://www.nkuttler.de/nktagcloud/">i18n</a>, <a href="http://www.nkuttler.de/nktagcloud/">internationalized</a>, <a href="http://www.nkuttler.de/nktagcloud/">sidebar</a>, <a href="http://www.nkuttler.de/nktagcloud/">custom taxonomy</a>, <a href="http://www.nkuttler.de/nktagcloud/">custom taxonomies</a>, <a href="http://www.nkuttler.de/nktagcloud/">multi widget</a>, <a href="http://www.nkuttler.de/nktagcloud/">multiple widgets</a>, <br />
+	<strong>Requires at least:</strong> 2.7<br />
+	<strong>Tested up to:</strong> 3.0<br />
+	<strong>Stable tag:</strong> 0.99.5	</p>
+
+	<hr />
+
+		<h3>Description</h3>
+	<p>I was pretty annoyed with the default tag cloud widget. It does a lot of things wrong, like inconsistent HTML markup and hardcoded font sizes. So I wanted to write my own. Digging through the code I found out that the wordpress <code>wp_tag_cloud()</code> function is pretty powerful. In fact, it could do almost everyhing I want. So I abandoned my plan to rewrite everything from scratch and added a nice admin interface to my tag cloud widget.</p>
+
+<p>This plugin makes the options for wp_tag_cloud() available to multiple tag cloud widgets and shortcodes. This means that you can easily choose things like custom taxonomies, font sizes, HTML markup and ordering. See the <a href="http://codex.wordpress.org/Function_Reference/wp_tag_cloud">wp_tag_cloud() page</a> for what the normal settings can do.</p>
+
+<p>Additionally, it is possible to sort tags by count and alphabetically at the same time. It is also possible to add a counter to the tags, so that your visitors can see how many posts are associated with each tag. The plugin also adds a sensible CSS class to every tag.</p>
+
+<h4>Support</h4>
+
+<p>Visit the <a href="http://www.nkuttler.de/wordpress/nktagcloud/">plugin's home page</a> to leave comments, ask questions, etc.</p>
+
+<h4>Other plugins I wrote</h4>
+
+<ul>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/wordpress-lorem-ipsum-generator-plugin/">Better Lorem Ipsum Generator</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/wordpress-related-posts-plugin/">Better Related Posts</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/custom-avatars-for-comments/">Custom Avatars For Comments</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/a-better-tag-cloud-widget/">Better Tag Cloud</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/theme-switch-and-preview-plugin/">Theme Switch</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/wpmu-switch-backend/">MU fast backend switch</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/record-movies-of-visitors/">Visitor Movies for WordPress</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/zero-conf-mail/">Zero Conf Mail</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/nkmovecomments/">Move WordPress Comments</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/delete-pending-comments">Delete Pending Comments</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/nksnow/">Snow and more</a></li>
+</ul>	<hr />
+		<h3>Installation</h3>
+	<ol>
+<li>Unzip</li>
+<li>Upload to your plugin directory</li>
+<li>Enable the plugin</li>
+<li>Add the widget in your dashboard's Design section and configure it as you like.</li>
+</ol>
+
+<p>The easiest way to use this plugin is to drag the new multiwidget into one of your sidebars.</p>
+
+<h4>Add a tag cloud inside a post or page</h4>
+
+<p>There is as well the shortcode [nktagcloud]. Examples:</p>
+
+<ol>
+<li>[nktagcloud] This displays the tag cloud as configured on the options page.</li>
+<li>[nktagcloud single=yes] This does the same but shows only the tags of the current post.</li>
+<li>[nktagcloud post_id=1234] Displays the tags of the post identified by post_id.</li>
+<li>[nktagcloud separator="" categories=no] Remove separator and categories.</li>
+</ol>
+
+<h4>Using the tag cloud in your theme</h4>
+
+<p>You can call the function <code>nktagcloud_shortcode()</code> from your theme to get the same output as from the shortcode. Example:</p>
+
+<pre><code>&lt;?php
+    if ( function_exists( 'nktagcloud_shortcode' ) ) {
+        echo nktagcloud_shortcode( null );
+    }
+</code></pre>
+
+<p>?&gt;</p>
+
+<p>There's also the <code>nk_wp_tag_cloud()</code> function. You can use it to generate a tag cloud with a different configuration than the plugin's one. It accepts the same parameters as <a href="http://codex.wordpress.org/Template_Tags/wp_tag_cloud">wp_tag_cloud()</a>. Example:</p>
+
+<pre><code>&lt;?php
+    if ( function_exists( 'nk_wp_tag_cloud' ) ) {
+        echo nk_wp_tag_cloud( 'single=yes&amp;separator= - &amp;categories=no' );
+    }
+</code></pre>
+
+<p>?&gt;</p>
+
+<p>Additonal parameters (all strings):</p>
+
+<ul>
+<li>single: Only tags of the current post ('Yes', 'No')</li>
+<li>categories: Inlude categories in the cloud ('Yes', 'No')</li>
+<li>replace: Convert blanks to non-breaking spaces ('Yes', 'No')</li>
+<li>post_id: Display only tags of the specified post (post ID)</li>
+<li>mincount: Show only tags that have been used at least so many times</li>
+<li>separator: Tag separator</li>
+<li>inject_count: Add a counter to the tag ('Yes', 'No')</li>
+<li>inject_count_outside: Add the counter outside of the tag hyperlink ('Yes', 'No')</li>
+<li>nofollow: Add the noffow attribute to the tags in the cloud ('Yes', 'No')</li>
+</ul>	<hr />
+		<h3>Frequently Asked Questions</h3>
+	<p>Q: How do I remove the link to the plugin homepage?<br />
+A: Please read the settings page, you can disable it there.</p>	<hr />
+		<h3>Screenshots</h3>
+	<ol>
+<li>The config options.</li>
+<li>The tag cloud with some CSS. Live demo at the <a href="http://www.nkuttler.de/nktagcloud/">plugin's page</a> on <a href="http://www.nkuttler.de/">my blog</a>.</li>
+</ol>	<hr />
+		<h3>Changelog</h3>
+	<h4>0.99.5 ( 2010-12-10 )</h4>
+
+<ul>
+<li>Fix a few small bugs, update docs</li>
+</ul>
+
+<h4>0.99.4 ( 2010-11-12 )</h4>
+
+<ul>
+<li>Bugfix for custom taxonomies, thanks to all who reported this!</li>
+</ul>
+
+<h4>0.99.3 ( 2010-07-25 )</h4>
+
+<ul>
+<li>Minor bugfix</li>
+<li>Update italian translation</li>
+</ul>
+
+<h4>0.99.2 ( 2010-07-14 )</h4>
+
+<ul>
+<li>Update docs</li>
+</ul>
+
+<h4>0.99 ( 2010-07-13 )</h4>
+
+<ul>
+<li>Support custom taxonomies (only for WordPress &gt;= 3.0)</li>
+<li>Add multi-widget support</li>
+</ul>
+
+<h4>0.11.2 ( 2010-05-24 )</h4>
+
+<ul>
+<li>Make it possible to hide the widget header markup when there is no header text.</li>
+</ul>
+
+<h4>0.11.1 ( 2010-05-18 )</h4>
+
+<ul>
+<li>Make it possible to hide the last separator as suggested by Scott.</li>
+</ul>
+
+<h4>0.11.0 ( 2010-05-17 )</h4>
+
+<ul>
+<li>Add the nofollow attribute as a configurable option.</li>
+<li>Add dutch translation.</li>
+</ul>
+
+<h4>0.10.0.3 ( 2010-05-13 )</h4>
+
+<ul>
+<li>Update the documentation.</li>
+</ul>
+
+<h4>0.10.0.2 ( 2010-03-09 )</h4>
+
+<ul>
+<li>Rename function to avoid potential conflicts.</li>
+</ul>
+
+<h4>0.10.0.1 ( 2010-02-01 )</h4>
+
+<ul>
+<li>Bugfix for minimum tag count, thanks to <a href="http://www.pathofysiologie.nl/">Muad</a> for reporting this.</li>
+</ul>
+
+<h4>0.10.0 ( 2010-01-19 )</h4>
+
+<ul>
+<li>Modify the shortcode so that it can display a single post's tags. </li>
+<li>Use parameters for all function calls to make them more usable for theme developers.</li>
+<li>Add the possibility to display the tags of a specific post outside the loop. This can be used in the sidebar for example.</li>
+</ul>
+
+<h4>0.9.0.1 ( 2010-01-15 )</h4>
+
+<ul>
+<li>I &#9825; the wordpress plugin versioning system through plugin.php readme.txt svn tag... I really need to script around that...</li>
+</ul>
+
+<h4>0.9.0 ( 2010-01-15 )</h4>
+
+<ul>
+<li>Fix for when WordPress is installed into a subdirectory. Thanks <a href="http://ten-fingers-and-a-brain.com">Martin</a>!</li>
+<li>Add belorusian translation sponsored by FatCow, thanks! Update various others.</li>
+</ul>
+
+<h4>0.8.13</h4>
+
+<ul>
+<li>Clean up counter and separator markup, thanks Carolin!</li>
+</ul>
+
+<h4>0.8.12.2</h4>
+
+<ul>
+<li>Really add the new CSS file, thanks Roman!</li>
+<li>Update italian translation.</li>
+</ul>
+
+<h4>0.8.12.1</h4>
+
+<ul>
+<li>Bugfix, thanks <a href="http://www.criticaldetroit.org/">Steve</a>!</li>
+</ul>
+
+<h4>0.8.12</h4>
+
+<ul>
+<li>Add colored CSS style.</li>
+</ul>
+
+<h4>0.8.11</h4>
+
+<ul>
+<li>Add french translation by <a href="http://liseweb.fr/BLOG/">Lise</a>, thank you!</li>
+<li>Add a first FAQ entry.</li>
+</ul>
+
+<h4>0.8.10</h4>
+
+<ul>
+<li>Add danish translation by Georg S. Adamsen.</li>
+<li>Make widget title translatable.</li>
+</ul>
+
+<h4>0.8.9</h4>
+
+<ul>
+<li>Bugfix for missing category links.</li>
+</ul>
+
+<h4>0.8.8</h4>
+
+<ul>
+<li>Hopefully fix all invalid HTML markup.</li>
+</ul>
+
+<h4>0.8.7</h4>
+
+<ul>
+<li>Add the option to put a separator string between tags.</li>
+</ul>
+
+<h4>0.8.6</h4>
+
+<ul>
+<li>Small fixes, optimizations and updates.</li>
+</ul>
+
+<h4>0.8.5</h4>
+
+<ul>
+<li>Add minimum count required to show a tag, thanks to <a href="http://krampis.lv/blog">Kaspars</a> for the suggestion.</li>
+<li>Add CSS class to every tag in the cloud: class="nktagcloud-$tagsize". $tagsize is something between the configured values for biggest and smallest font size.</li>
+<li>Add icon by <a href="http://www.famfamfam.com">famfamfam</a> to the <a href="http://planetozh.com/blog/my-projects/wordpress-admin-menu-drop-down-css/">Admin Drop Down Menu</a>.</li>
+<li>Move CSS files.</li>
+</ul>
+
+<h4>0.8.4.1</h4>
+
+<ul>
+<li>Fix version number</li>
+</ul>
+
+<h4>0.8.4</h4>
+
+<ul>
+<li>Fix bug for new installs where parts of the plugin options get deleted. Before, a plugin reset was necessary after the first install.</li>
+</ul>
+
+<h4>0.8.3</h4>
+
+<ul>
+<li>Bugfix, put shortcode in the right place on the page</li>
+<li>Add admin styles + info</li>
+<li>Update german translation</li>
+<li>Add italian translation, thanks to <a href="http://gidibao.net/index.php/2009/10/15/better-tag-cloud-widget-in-italiano/">Gianni</a>!</li>
+</ul>
+
+<h4>0.8.2</h4>
+
+<ul>
+<li>Bugfix, thanks to cornel.</li>
+</ul>
+
+<h4>0.8.1.2</h4>
+
+<ul>
+<li>Fix invalid HTML in admin</li>
+</ul>
+
+<h4>0.8.1</h4>
+
+<ul>
+<li>I18N</li>
+<li>Add german translation by <a href="http://www.nicolaskuttler.de">Nicolas Kuttler</a></li>
+<li>Sorry for releasing 0.8.0alpha-1, it was intended as a (pretty stable) development version.</li>
+<li>Add a shortcode. It is possible to insert a tag cloud into any page or post.</li>
+</ul>
+
+<h4>0.8.0alpha-1</h4>
+
+<ul>
+<li>Major rewrite</li>
+<li>Made code more efficient</li>
+<li>Better code documentation</li>
+<li>Improved admin security</li>
+</ul>
+
+<h4>0.7.0</h4>
+
+<ul>
+<li>The categories can be included in the tag cloud.</li>
+</ul>
+
+<h4>0.6.4</h4>
+
+<ul>
+<li>Make it possible to have the tag count outside of the tag hyperlink. Requested by Maya.</li>
+</ul>
+
+<h4>0.6.3</h4>
+
+<ul>
+<li>Fix URL typo.</li>
+<li>Fix bad upgrade bug that deletes settings.</li>
+</ul>
+
+<h4>0.6.2</h4>
+
+<ul>
+<li>Make font sizes text input fields for post decimal positions. This was suggested by Triton Bloom as well.</li>
+<li>Admin CSS update.</li>
+</ul>
+
+<h4>0.6.1</h4>
+
+<ul>
+<li>Add include parameter as well.</li>
+</ul>
+
+<h4>0.6.0</h4>
+
+<ul>
+<li>Make the exclude parameter work.</li>
+<li>Use new changelog format.</li>
+<li>Fix some typos.</li>
+</ul>
+
+<h4>0.5.0</h4>
+
+<ul>
+<li>Rewrote the settings form and added an option to enable/disable tag link underlining.</li>
+</ul>
+
+<h4>0.4.0</h4>
+
+<ul>
+<li>Add post count feature. Thanks to Triton Bloom for the suggestion.</li>
+<li>Add sorting by count and name at the same time feature.</li>
+<li>Moved the configuration to a settings page.</li>
+</ul>
+
+<h4>0.3.1</h4>
+
+<ul>
+<li>Better description.</li>
+</ul>
+
+<h4>0.3.0</h4>
+
+<ul>
+<li>Add regexp for putting multi-word tags on one line, thanks to <a href="http://www.augen-seite.de">Augen</a> for suggesting this.</li>
+<li>CSS fix, doc and other minor minor updates.</li>
+</ul>
+
+<h4>0.2.3</h4>
+
+<ul>
+<li>Compatibility tests</li>
+</ul>
+
+<h4>0.2.2</h4>
+
+<ul>
+<li>Another bugfix.</li>
+</ul>
+
+<h4>0.2.1</h4>
+
+<ul>
+<li>Bugfix, thanks to <a href="http://www.thelocallanding.net/">The Local Landing</a>.</li>
+</ul>
+
+<h4>0.2.0</h4>
+
+<ul>
+<li>Add default CSS style for the list format.</li>
+</ul>
+
+<h4>0.1.1</h4>
+
+<ul>
+<li>Doc updates, fix typo.</li>
+</ul>
+
+<h4>0.1.0</h4>
+
+<ul>
+<li>Release</li>
+</ul>	<hr />
+	
+	<h3>Upgrade Notice</h3>
+	<dl>
+		<dt>0.99</dt>
+		<dd>Add support for custom taxonomies and multiple widgets</dd>
+		<dt>0.10.0.2</dt>
+		<dd>Very low priority compatibility fix.</dd>
+		<dt>0.10.0</dt>
+		<dd>This might break things for you if you&#039;re calling the plugin functions directly from your theme. However, everything is now configurable through the function call which is an improvement. For most users there shouldn&#039;t be any noticable change.</dd>
+		<dt>0.9.0.1</dt>
+		<dd>This still is a maintenance release with one big internal (hence the version bump) but no big visible changes.</dd>
+		<dt>0.9.0</dt>
+		<dd>This is a maintenance release with one big internal (hence the version bump) but no big visible changes.</dd>
+	</dl>
+
+	

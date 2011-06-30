@@ -1,0 +1,160 @@
+.todo {
+	display: none;
+}
+
+a img {
+	border: 0px;
+}
+
+#loading, .loading {text-align: center}
+
+ul#gigs-menu {
+	margin: 0px 5%;
+	padding: 0px;
+}
+
+li.selected {font-weight: bold}
+
+img.inline-icon {
+	position: relative;
+	top: 3px;
+}
+
+.inside { 
+	display: none;
+}
+
+ul#gigs-menu li {
+	display:inline;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	text-align:center;
+	white-space:nowrap;
+	padding-right: 1em;
+	cursor: pointer;
+}
+
+div#gigs-wrapper.wrap {
+	margin-top: 0px;
+}
+
+div.gigs-page {
+	display: none;
+}
+
+.drag {
+	cursor: move;
+}
+
+.icon {
+	position: relative;
+	top: 3px;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.no-margin {
+	margin: 0px;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+input.price {
+	width: 50px;
+}
+
+form table, form td {
+	border: 0px;
+	border-collapse: collapse;
+	padding: 0px;
+}
+
+form .wide {
+	width: 300px;
+}
+
+form.new-item div, form.new-item td {
+	padding-bottom: 7px;
+}
+
+tr.panel {
+	display: none;
+}
+
+a img, td.actions a {
+	text-decoration: none;
+	border: 0px;
+}
+
+span.link {
+	text-decoration: underline;
+	color: #6699CC;
+	cursor: pointer;
+}
+
+div.instructions {
+	border: 1px solid #AAAAAA;
+	padding: 4px;
+	text-align: center;
+	font-size: .9em;
+}
+
+.alternate input, .alternate select, .alternate textarea {
+	background-color: #fff;
+}
+
+/**** Styles for Feedback page ****/
+	#feedback form {
+		padding-left: 2em;
+	}
+	
+	#feedback textarea {
+		width: 500px;
+		height: 300px;
+	}
+	
+	#feedback form div {
+		margin-bottom: 7px;
+	}
+
+/**** Styles for Gigs page ****/
+	table.performance {
+		border: 1px dotted #777777;
+		border-collapse: collapse;
+	}
+
+	table.performance td {
+		padding: 3px;
+	}
+	
+	table.performance td div {
+		position: relative;
+	}
+	
+	table.performance div.delete-performance {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	
+/**** Styles for Settings page ****/
+	ul#gigs-table, ul#gig-title, ul.sortable {
+		list-style-image:none;
+		list-style-position:outside;
+		list-style-type:none;
+		padding-left: 1em;
+	}
+	
+	form div {
+		line-height: 2em;
+	}
+
+	.sortable .handle {
+		cursor: move;
+	}
+	

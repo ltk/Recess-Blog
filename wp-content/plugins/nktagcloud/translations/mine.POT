@@ -1,0 +1,42 @@
+
+#. Here are some strings that are stored in variables
+#. I think I have to add them by hand to the .pot file
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+#. Tag ordering
+
+#. ascending
+msgid "ASC"
+msgstr ""
+
+#. descending
+msgid "DESC"
+msgstr ""
+
+#. random
+msgid "RAND"
+msgstr ""
+
+#. Tag cloud format
+msgid "list"
+msgstr ""
+
+msgid "flat"
+msgstr ""
+
+#. CSS style for tag links
+msgid "underline"
+msgstr ""
+
+#. Don't underline
+msgid "none"
+msgstr ""
+
+#. Don't do anything
+msgid "don't touch"
+msgstr ""

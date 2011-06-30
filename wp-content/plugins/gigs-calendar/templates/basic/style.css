@@ -1,0 +1,78 @@
+div.attribution, div.gigs-rss {
+	text-align: center;
+	font-size: 87%;
+	margin: .5em 0px;
+}
+
+div.gigs-rss img {
+	position: relative;
+	top: 2px;
+}
+
+div.attribution span {
+	margin: 0px 1em;
+}
+
+table.gigs {
+	width: 100%;
+	text-align: left;
+	font-size: .9em;
+	border-collapse: collapse;
+	border: 1px dotted #666;
+}
+
+table.gigs td.icon {
+	width: 18px;
+	text-align: center;
+}
+
+table.gigs td.time {
+	text-align: right;
+}
+
+table.gigs a {
+	font-weight: bold;
+}
+
+table.gigs a img {
+	border: 0px;
+}
+
+
+table.gigs tr.gig {
+	border-top: 1px dotted #666;
+}
+
+table.gigs td.shortNotes {
+	padding-left: 4px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+img.buy {
+	position: relative;
+	top: 3px;
+}
+
+table.gigs caption {
+	font-weight: bold;
+	font-size: 125%;
+	text-align: left;
+}
+
+table.gigs caption div.notes{
+	font-weight: normal;
+	font-size: 80%;
+	text-align: left;
+}
+
+table.gigs, div.no-gigs {
+	margin-bottom: 1em;
+}
+
+/** Next Gig Widget **/
+	.gig.next {
+		padding-left: 10px;
+	}

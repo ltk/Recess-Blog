@@ -1,0 +1,23 @@
+ul#gigs-menu {
+	margin: .5em 0px;
+}
+
+div.instructions { 
+	background-color: #E4F2FD;
+}
+
+table#gig-list.widefat table td {
+	border: 0px;
+}
+
+div#postcustomstuff-new table td {
+	vertical-align: top;
+}
+
+div#postcustomstuff-new table th {
+	line-height:1.3em;
+	padding:9px 15px 6px 10px;
+	text-align:left;
+	color:#D7D7D7;
+	background-color: #464646;
+}

@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Better Tag Cloud Widget 0.8.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-06 17:34+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Team Blogos <wordpress@blogos.dk>\n"
+"Language-Team: Team Blogos <wordpress@blogos.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_c;_e;__ngettext:1,2;__ngettext_noop:1,2;_n:1,2;_nc:1,2;_n_noop:1,2\n"
+"X-Poedit-Basepath: d:\\wordpress\\plugins\\nktagcloud\n"
+"X-Poedit-SearchPath-0: d:\\wordpress\\plugins\\nktagcloud\n"
+
+#: d:\wordpress\plugins\nktagcloud/nktagcloud.php:38
+#: d:\wordpress\plugins\nktagcloud/nktagcloud.php:39
+#: d:\wordpress\plugins\nktagcloud/nktagcloud.php:43
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:81
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:139
+msgid "Better Tag Cloud"
+msgstr "Better Tag Cloud"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:73
+#, php-format
+msgid "There were too many options, so I had to move the configuration to a <a href=\"%s\" >settings page</a>."
+msgstr "Der var så mange indstillinger, at jeg var nødt til at flytte konfigureringen til en side med <a href=\"%s\" >Indstillinger</a>."
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:143
+msgid "The default tag cloud widget that comes with wordpress is very simple. This plugin makes the options for wp_tag_cloud() available to this new tag cloud widget and a shortcode. It has new features as well."
+msgstr "Standard-tag-skyen, som kommer med WordPress, er meget simpel. Denne widget gør indstillingerne for wp_tag_cloud() tilgængelig for den nye tag-sky-widget og for en kortkode. Den har også nye funktioner."
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:146
+msgid "<strong>New</strong> It is now possible to insert a tag cloud into any post or page. Just put the <tt>[nktagcloud]</tt> shortcode into any post or page."
+msgstr "<strong>Nyt</strong> Det er nu muligt at indsætte en tag-sky i et indlæg eller på en side. Du skal blot indsætte <tt>[nktagcloud]</tt>-kortkoden i et indlæg eller på en side."
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:149
+msgid "Tag cloud Configuration"
+msgstr "Konfiguration af tag-sky"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:151
+msgid "Please see <a href=\"http://codex.wordpress.org/Template_Tags/wp_tag_cloud\" target=\"_blank\">the wp_tag_cloud() page</a> for a detailed description of the options."
+msgstr "Se venligst <a href=\"http://codex.wordpress.org/Template_Tags/wp_tag_cloud\" target=\"_blank\">wp_tag_cloud()-siden</a> for en detaljeret beskrivelse af indstillingerne."
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:155
+msgid "Title"
+msgstr "Titel"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:157
+msgid "Smallest font size"
+msgstr "Mindste skriftstørrelse"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:158
+msgid "Largest font size"
+msgstr "Største skriftstørrelse"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:159
+msgid "Unit"
+msgstr "Enhed"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:161
+msgid "Numbers of tags to show"
+msgstr "Antal tags, der skal vises"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:163
+msgid "Format"
+msgstr "Format"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:165
+msgid "Order"
+msgstr "Rækkefølge"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:166
+msgid "Orderby"
+msgstr "Sortér efter"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:168
+msgid "The 'both' option of <tt>Orderby</tt> will sort by post count first and then by name. It doesn't exist in the default tag cloud and will ignore the <tt>Order</tt> option."
+msgstr "'Begge' indstillingen for <tt>Sortér efter</tt> sorterer efter antal indlæg først og dernæst efter navn. Det eksisterer ikke i standard-tag-skyen og ignorerer <tt>Rækkefølge</tt>-indstillingen."
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:171
+msgid "Add post count to tags?"
+msgstr "Tilføj antal indlæg til tags?"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:172
+msgid "Put the post count outside of the hyperlink?"
+msgstr "Placér indlægsantallet uden for linket?"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:174
+msgid "Show only tags that have been used at least so many times:"
+msgstr "Vis kun tags, der er brugt mindst følgende antal gange:"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:176
+msgid "Add categories to tag cloud?"
+msgstr "Tilføj kategorier til tag-skyen?"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:178
+msgid "Force tags with multiple words on one line?"
+msgstr "Hold tag med flere ord samlet på én linje?"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:180
+msgid "Tag separator"
+msgstr "Separator ml. tags"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:182
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:193
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:203
+msgid "Save changes"
+msgstr "Gem ændringer"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:184
+msgid "CSS settings"
+msgstr "CSS-indstillinger"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:186
+msgid "By default this plugin includes CSS to make the list look like a normal cloud.  The CSS settings may or may not work on your template, depending on it's CSS."
+msgstr "Som standard inkluderer dette plugin CSS, så listen ser ud som en normal sky. CSS-indstillingerne virker måske, måske ikke med dit temas skabeloner, afhængig af dets CSS."
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:188
+msgid "Remove CSS for list format that displays the tags inline?"
+msgstr "Fjern CSS for listeformat, som viser tags inline?"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:189
+msgid "Tag link decoration"
+msgstr "Udsmykning af taglinks"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:191
+msgid "Remove link to plugin website?"
+msgstr "Fjern link til plugin-website?"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:195
+msgid "Exclude/Include tags"
+msgstr "Udelad/medtag tags"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:197
+msgid "Comma separated list of tags (term_id) to exclude or include. For example, <tt>exclude=5,27</tt> means that tags that have the <tt>term_id</tt> 5 or 27 will NOT be displayed. See <a href=\"http://codex.wordpress.org/Template_Tags/wp_tag_cloud\">Template Tags/wp tag cloud</a>."
+msgstr "Kommasepareret liste af tags (term_id), der skal udelades eller medtages. For eksempel betyder <tt>exclude=5,27</tt>, at tags, som har <tt>term_id</tt> 5 eller 27, IKKE vil blive vist. Se <a href=\"http://codex.wordpress.org/Template_Tags/wp_tag_cloud\">Template Tags/wp tag cloud</a>."
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:199
+msgid "Exclude Tags"
+msgstr "Udelad tags"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:201
+msgid "Include Tags"
+msgstr "Medtag tags"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:206
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:213
+msgid "Reset the tag cloud"
+msgstr "Nulstil tag-skyen"
+
+#: d:\wordpress\plugins\nktagcloud/inc/admin.php:208
+msgid "Use this if you want to delete your configuration and restore the defaults."
+msgstr "Brug denne, hvis du ønsker at slette konfigureringen og gendanne standardværdierne."
+
+#: d:\wordpress\plugins\nktagcloud/inc/nkuttler.php:24
+msgid "Do you like this plugin?"
+msgstr "Kan du lide dette plugin?"
+
+#: d:\wordpress\plugins\nktagcloud/inc/nkuttler.php:32
+#, php-format
+msgid "<a href=\"%s\">Vote</a> for it"
+msgstr "<a href=\"%s\">Stem</a> på det"
+
+#: d:\wordpress\plugins\nktagcloud/inc/nkuttler.php:35
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr "<a href=\"%s\">Besøg</a> dets hjemmeside"
+
+#: d:\wordpress\plugins\nktagcloud/inc/nkuttler.php:38
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr "<a href=\"%s\">Abonnér</a> på feedet"
+
+#: d:\wordpress\plugins\nktagcloud/inc/nkuttler.php:41
+msgid "About the author"
+msgstr "Om forfatteren"
+
+#: d:\wordpress\plugins\nktagcloud/inc/nkuttler.php:44
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr "Min <a href=\"%s\">blog</a>"
+
+#: d:\wordpress\plugins\nktagcloud/inc/nkuttler.php:47
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr "Abonnér via <a href=\"%s\">RSS</a> eller <a href=\"%s\">email</a>"
+
+#: d:\wordpress\plugins\nktagcloud/inc/nkuttler.php:51
+msgid "My other plugins"
+msgstr "Mine andre plugins"
+
+#: d:\wordpress\plugins\nktagcloud/inc/page.php:98
+msgid "<a href=\"http://www.nkuttler.de/wordpress/nktagcloud/\">Better Tag Cloud</a>"
+msgstr "<a href=\"http://www.nkuttler.de/wordpress/nktagcloud/\">Better Tag Cloud</a>"
+
+#~ msgid "Better Tag cloud"
+#~ msgstr "Better Tag cloud"
+

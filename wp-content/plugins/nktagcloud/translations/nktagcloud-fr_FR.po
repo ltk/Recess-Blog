@@ -1,0 +1,258 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Nicolas Kuttler
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Better Tag Cloud 0.8.7\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/nktagcloud\n"
+"POT-Creation-Date: 2009-11-05 18:14+0100\n"
+"PO-Revision-Date: 2009-12-27 19:40+0100\n"
+"Last-Translator: Le Blog de Lise <webmaster@liseweb.fr>\n"
+"Language-Team: Le Blog de Lise <webmaster@liseweb.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+#: inc/admin.php:73
+#, php-format
+msgid "There were too many options, so I had to move the configuration to a <a href=\"%s\" >settings page</a>."
+msgstr "Les options étant trop nombreuses, leur paramétrage se trouve sur la page de <a href=\"%s\" >Configration</a>."
+
+#. #-#-#-#-#  nktagcloud.pot (Better Tag Cloud 0.8.7)  #-#-#-#-#
+#. Plugin Name of an extension
+#: inc/admin.php:81
+#: inc/admin.php:139
+#: nktagcloud.php:38
+#: nktagcloud.php:39
+#: nktagcloud.php:43
+msgid "Better Tag Cloud"
+msgstr "Configuration de Better Tag Cloud"
+
+#: inc/admin.php:143
+msgid "The default tag cloud widget that comes with wordpress is very simple. This plugin makes the options for wp_tag_cloud() available to this new tag cloud widget and a shortcode. It has new features as well."
+msgstr "Le nuage de mots-clés par défaut de WordPress est très simple. Ce plugin rend les options et les raccourcis de wp_tag_cloud() accessibles. Il comporte de nouvelles fonctionnalités."
+
+#: inc/admin.php:146
+msgid "<strong>New</strong> It is now possible to insert a tag cloud into any post or page. Just put the <tt>[nktagcloud]</tt> shortcode into any post or page."
+msgstr "<strong>Nouveau.</strong> Il est maintenant possible d'insérer un nuage de mots-clés dans n'importe quel article ou n'importe quelle page. Saisissez simplement le code <tt>[nktagcloud]</tt> dans la page ou l'article."
+
+#: inc/admin.php:149
+msgid "Tag cloud Configuration"
+msgstr "Configuration du nuage de mots-clés"
+
+#: inc/admin.php:151
+msgid "Please see <a href=\"http://codex.wordpress.org/Template_Tags/wp_tag_cloud\" target=\"_blank\">the wp_tag_cloud() page</a> for a detailed description of the options."
+msgstr "Merci de vous reporter à la  <a href=\"http://codex.wordpress.org/Template_Tags/wp_tag_cloud\" target=\"_blank\">page de wp_tag_cloud()</a> pour des explications plus détaillées des  options."
+
+#: inc/admin.php:155
+msgid "Title"
+msgstr "Titre"
+
+#: inc/admin.php:157
+msgid "Smallest font size"
+msgstr "Taille la plus petite des mots-clés"
+
+#: inc/admin.php:158
+msgid "Largest font size"
+msgstr "Taille la plus grande des mots-clés"
+
+#: inc/admin.php:159
+msgid "Unit"
+msgstr "Unité"
+
+#: inc/admin.php:161
+msgid "Numbers of tags to show"
+msgstr "Nombre de mots-clés à afficher"
+
+#: inc/admin.php:163
+msgid "Format"
+msgstr "Format"
+
+#: inc/admin.php:165
+msgid "Order"
+msgstr "Ordre"
+
+#: inc/admin.php:166
+msgid "Orderby"
+msgstr "Ordonner par"
+
+#: inc/admin.php:168
+msgid "The 'both' option of <tt>Orderby</tt> will sort by post count first and then by name. It doesn't exist in the default tag cloud and will ignore the <tt>Order</tt> option."
+msgstr "L'option 'both' de <tt>'Ordonner par'</tt> triera les articles d'abord par le nombre d'articles puis par le nom des mots-clés. Cette option n'existe pas dans le nuage de mots-clés par défaut et ne prendra pas en compte l'option <tt>'Ordre'</tt>."
+
+#: inc/admin.php:171
+msgid "Add post count to tags?"
+msgstr "Afficher le compteur de mots-clés ?"
+
+#: inc/admin.php:172
+msgid "Put the post count outside of the hyperlink?"
+msgstr "Afficher le compteur en dehors du lien hypertexte ?"
+
+#: inc/admin.php:174
+msgid "Show only tags that have been used at least so many times:"
+msgstr "Afficher les mots-clés s'ils ont au moins été utilisés le nombre de fois indiqué : "
+
+#: inc/admin.php:176
+msgid "Add categories to tag cloud?"
+msgstr "Ajouter les catégories au nuage de mots-clés ?"
+
+#: inc/admin.php:178
+msgid "Force tags with multiple words on one line?"
+msgstr "Afficher les mots-clés comportant plusieurs mots sur une seule ligne ?"
+
+#: inc/admin.php:180
+msgid "Tag separator"
+msgstr "Séparateur de mots-clés "
+
+#: inc/admin.php:182
+#: inc/admin.php:193
+#: inc/admin.php:203
+msgid "Save changes"
+msgstr "Enregistrer les modifications"
+
+#: inc/admin.php:184
+msgid "CSS settings"
+msgstr "Paramètre de la feuille de style (CSS)"
+
+#: inc/admin.php:186
+msgid "By default this plugin includes CSS to make the list look like a normal cloud.  The CSS settings may or may not work on your template, depending on it's CSS."
+msgstr "Par défaut, cette extension inclut un CSS pour afficher la liste comme un nuage de mots-clés. Le CSS peut ne pas fonctionner avec votre thème.  "
+
+#: inc/admin.php:188
+msgid "Remove CSS for list format that displays the tags inline?"
+msgstr "Supprimer le CSS pour le format 'liste' qui affiche les mots-clés ?"
+
+#: inc/admin.php:189
+msgid "Tag link decoration"
+msgstr "Affichage des mots-clés"
+
+#: inc/admin.php:191
+msgid "Remove link to plugin website?"
+msgstr "Ne pas afficher le lien vers le site de l'extension"
+
+#: inc/admin.php:195
+msgid "Exclude/Include tags"
+msgstr "Exclure / Inclure des mots-clés"
+
+#: inc/admin.php:197
+msgid "Comma separated list of tags (term_id) to exclude or include. For example, <tt>exclude=5,27</tt> means that tags that have the <tt>term_id</tt> 5 or 27 will NOT be displayed. See <a href=\"http://codex.wordpress.org/Template_Tags/wp_tag_cloud\">Template Tags/wp tag cloud</a>."
+msgstr "Séparez les mots-clés par une virgule (term_id) pour les exclure ou les inclure. Par exemple, <tt>exclure=5,27</tt> signifie que les mots-clés ayant comme <tt>term_id</tt> 5 et 27 NE seront PAS affichés. Consultez la page <a href=\"http://codex.wordpress.org/Template_Tags/wp_tag_cloud\">Template Tags/wp tag cloud</a> pour des explications détaillées."
+
+#: inc/admin.php:199
+msgid "Exclude Tags"
+msgstr "Exclure les mos-clés"
+
+#: inc/admin.php:201
+msgid "Include Tags"
+msgstr "Inclure les mos-clés"
+
+#: inc/admin.php:206
+#: inc/admin.php:213
+msgid "Reset the tag cloud"
+msgstr "Réinitialiser le nuage de mots-clés"
+
+#: inc/admin.php:208
+msgid "Use this if you want to delete your configuration and restore the defaults."
+msgstr "Utilisez cette option si vous souhaitez supprimer votre configuration et restaurer les paramètres par défaut."
+
+#: inc/nkuttler.php:24
+msgid "Do you like this plugin?"
+msgstr "Aimez-vous cette extension ?"
+
+#: inc/nkuttler.php:32
+#, php-format
+msgid "<a href=\"%s\">Vote</a> for it"
+msgstr "<a href=\"%s\">Votez</a> pour elle"
+
+#: inc/nkuttler.php:35
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr "<a href=\"%s\">Rendez-vous</a> sur la page de l'extension"
+
+#: inc/nkuttler.php:38
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr "<a href=\"%s\">Abonnez-vous</a> au flux RSS"
+
+#: inc/nkuttler.php:41
+msgid "About the author"
+msgstr "A propos de l'auteur"
+
+#: inc/nkuttler.php:44
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr "Mon <a href=\"%s\">blog</a>"
+
+#: inc/nkuttler.php:47
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr "Abonnez-vous <a href=\"%s\">au flux RSS</a> ou <a href=\"%s\">par mail</a>"
+
+#: inc/nkuttler.php:51
+msgid "My other plugins"
+msgstr "Mes autres extensions"
+
+#: inc/page.php:98
+msgid "<a href=\"http://www.nkuttler.de/wordpress/nktagcloud/\">Better Tag Cloud</a>"
+msgstr "<a href=\"http://www.nkuttler.de/wordpress/nktagcloud/\">Better Tag Cloud</a>"
+
+#. Plugin URI of an extension
+msgid "http://www.nkuttler.de/wordpress/nktagcloud/"
+msgstr "http://www.nkuttler.de/wordpress/nktagcloud/"
+
+#. Description of an extension
+msgid "A Better Tag Cloud than the default one."
+msgstr "Better Tag Cloud, un nuage de mots-clés mieux que celui par défaut."
+
+#. Author of an extension
+msgid "Nicolas Kuttler"
+msgstr "Nicolas Kuttler"
+
+#. Author URI of an extension
+msgid "http://www.nkuttler.de/"
+msgstr ""
+
+#. Here are some strings that are stored in variables
+#. I think I have to add them by hand to the .pot file
+msgid "Yes"
+msgstr "Oui"
+
+msgid "No"
+msgstr "Non"
+
+#. Tag ordering
+#. ascending
+msgid "ASC"
+msgstr "ASC"
+
+#. descending
+msgid "DESC"
+msgstr "DESC"
+
+#. random
+msgid "RAND"
+msgstr "aléatoire"
+
+#. Tag cloud format
+msgid "list"
+msgstr "liste"
+
+msgid "flat"
+msgstr "nuage"
+
+#. CSS style for tag links
+msgid "underline"
+msgstr "souligné"
+
+#. Don't underline
+msgid "none"
+msgstr "aucun"
+
+#. Don't do anything
+msgid "don't touch"
+msgstr "ne pas modifier"
+

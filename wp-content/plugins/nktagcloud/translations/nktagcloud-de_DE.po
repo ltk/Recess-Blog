@@ -1,0 +1,344 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wordpress 28\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/nktagcloud\n"
+"POT-Creation-Date: 2010-07-13 17:29+0200\n"
+"PO-Revision-Date: 2009-10-14 10:22+0200\n"
+"Last-Translator: Nicolas Kuttler <wp@nicolaskuttler.de>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: inc/admin.php:92
+msgid "This widget is deprecated, please use the new one on the left."
+msgstr "Dieses widget ist veraltet, benutzen Sie bitte das neue auf der rechten Seite."
+
+#: inc/admin.php:93
+#, php-format
+msgid ""
+"There were too many options, so I had to move the configuration to a <a href="
+"\"%s\" >settings page</a>."
+msgstr ""
+"Es gibt mittlerweile zu viele Einstellungsmöglichkeiten, deswegen sind sie "
+"auf einer <a href=\"%s\" >Konfigurationsseite</a>."
+
+#. #-#-#-#-#  nktagcloud.pot (Better Tag Cloud 0.99)  #-#-#-#-#
+#. Plugin Name of an extension
+#: inc/admin.php:101 inc/admin.php:161 nktagcloud.php:55 nktagcloud.php:56
+#: nktagcloud.php:61
+msgid "Better Tag Cloud"
+msgstr "Bessere Tag Wolke"
+
+#: inc/admin.php:165
+msgid ""
+"The default tag cloud widget that comes with wordpress is very simple. This "
+"plugin makes the options for wp_tag_cloud() available to this new tag cloud "
+"widget and a shortcode. It has new features as well."
+msgstr ""
+"Das Standard Widget für die Tag Wolke in WordPress ist recht simpel. Mit "
+"diesem verbesserten Widget haben Sie Zugriff auf alle Optionen der "
+"wp_tag_cloud() Funktion und auch auf neue Optionen."
+
+#: inc/admin.php:168
+msgid ""
+"<strong>New</strong> It is now possible to insert a tag cloud into any post "
+"or page. Just put the <tt>[nktagcloud]</tt> shortcode into any post or page."
+msgstr ""
+"<strong>Neu</strong> Es ist jetzt möglich eine Tag Wolke in Artikeln und "
+"Seiten einzufügen. Einfach den shortcode <tt>[nktagcloud]</tt> in die Seite "
+"oder dern Artikel einfügen."
+
+#: inc/admin.php:171
+msgid "Tag cloud Configuration"
+msgstr "Tag Wolke Einstellungen"
+
+#: inc/admin.php:173
+msgid ""
+"Please see <a href=\"http://codex.wordpress.org/Template_Tags/wp_tag_cloud\" "
+"target=\"_blank\">the wp_tag_cloud() page</a> for a detailed description of "
+"the options."
+msgstr ""
+"Englische Informationen zu dieser Funktion befindet sich auf <a href="
+"\"http://codex.wordpress.org/Template_Tags/wp_tag_cloud\" target=\"_blank"
+"\">dieser Seite</a>."
+
+#: inc/admin.php:177
+msgid "CSS settings"
+msgstr "CSS Einstellungen"
+
+#: inc/admin.php:179
+msgid ""
+"By default this plugin includes CSS to make the list look like a normal "
+"cloud.  The CSS settings may or may not work on your template, depending on "
+"it's CSS."
+msgstr ""
+"Normalerweise benutzt dieses Widget eigene CSS Definitionen, damit die Tag "
+"Wolke korrekt aussieht. Dies kann je nach Template klappen oder auch nicht. "
+
+#: inc/admin.php:181
+msgid "Remove CSS for list format that displays the tags inline?"
+msgstr "Soll das CSS dieses plugins aus dem HTML code entfernt werden?"
+
+#: inc/admin.php:182
+msgid "Tag link decoration"
+msgstr "Dekoration für die Tag Verweise"
+
+#: inc/admin.php:184
+msgid "Use automatic colors for the tag cloud?"
+msgstr "Die Tag-Wolke automatisch einfärben?"
+
+#: inc/admin.php:186
+msgid "Hide the widget header markup if the widget title is empty?"
+msgstr "Verstecke das markup für die widget-Überschrift wenn diese leer ist?"
+
+#: inc/admin.php:188
+msgid "Remove link to plugin website?"
+msgstr "Den Verweis zur Webseite des plugins entfernen?"
+
+#: inc/admin.php:190 inc/admin.php:226 inc/admin.php:236
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: inc/admin.php:193
+msgid "Deprecated settings, please use the new widget"
+msgstr "Veraltete Einstellungen, benutzen Sie bitte das neue widget"
+
+#: inc/admin.php:194 inc/multiwidget.php:66
+msgid "Title"
+msgstr "Titel"
+
+#: inc/admin.php:196 inc/multiwidget.php:68
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: inc/admin.php:198 inc/multiwidget.php:70
+msgid "Smallest font size"
+msgstr "Kleinste Schrift"
+
+#: inc/admin.php:199 inc/multiwidget.php:71
+msgid "Largest font size"
+msgstr "Größte Schrift"
+
+#: inc/admin.php:200 inc/multiwidget.php:72
+msgid "Unit"
+msgstr "Einheit"
+
+#: inc/admin.php:202 inc/multiwidget.php:74
+msgid "Numbers of tags to show"
+msgstr "Anzahl der zu zeigenden Tags"
+
+#: inc/admin.php:204 inc/multiwidget.php:76
+msgid "Format"
+msgstr "Format"
+
+#: inc/admin.php:206 inc/multiwidget.php:78
+msgid "Order"
+msgstr "Anordnung"
+
+#: inc/admin.php:207 inc/multiwidget.php:79
+msgid "Orderby"
+msgstr "Sortieren nach"
+
+#: inc/admin.php:209 inc/multiwidget.php:81
+msgid ""
+"The 'both' option of <tt>Orderby</tt> will sort by post count first and then "
+"by name. It doesn't exist in the default tag cloud and will ignore the "
+"<tt>Order</tt> option."
+msgstr ""
+"Die Option 'both' von 'Sortieren nach' sortiert zunächst nach Anzahl und "
+"dann nach Namen. Wählt man 'both' aus wird die Einstellung <tt>Anordnung</"
+"tt> ignoriert."
+
+#: inc/admin.php:212 inc/multiwidget.php:84
+msgid "Add post count to tags?"
+msgstr "Den Tags einen Zähler hinzufügen?"
+
+#: inc/admin.php:213 inc/multiwidget.php:85
+msgid "Put the post count outside of the hyperlink?"
+msgstr "Den Zähler außerhalb des Verweises anzeigen?"
+
+#: inc/admin.php:215 inc/multiwidget.php:87
+msgid "Show only tags that have been used at least so many times:"
+msgstr "Nur tags anzeigen, die wenigstens so oft vorkommen:"
+
+#: inc/admin.php:217 inc/multiwidget.php:89
+msgid "Add categories to tag cloud?"
+msgstr "Die Kategorien hin zu fügen?"
+
+#: inc/admin.php:219 inc/multiwidget.php:91
+msgid "Force tags with multiple words on one line?"
+msgstr "Tags die aus mehr aus einem Wort bestehen auf eine Zeile zwingen?"
+
+#: inc/admin.php:221 inc/multiwidget.php:93
+msgid "Tag separator"
+msgstr "Tag-Trennzeichen"
+
+#: inc/admin.php:222 inc/multiwidget.php:94
+msgid "Hide the last separator?"
+msgstr "Das letzte Trennzeichen verstecken?"
+
+#: inc/admin.php:224 inc/multiwidget.php:96
+msgid "Add the nofollow attribute?"
+msgstr "Das nofollow-Attribut hinzu fügen?"
+
+#: inc/admin.php:228 inc/multiwidget.php:99
+msgid "Exclude/Include tags"
+msgstr "Tags ausschließen oder einfügen"
+
+#: inc/admin.php:230 inc/multiwidget.php:101
+msgid ""
+"Comma separated list of tags (term_id) to exclude or include. For example, "
+"<tt>exclude=5,27</tt> means that tags that have the <tt>term_id</tt> 5 or 27 "
+"will NOT be displayed. See <a href=\"http://codex.wordpress.org/"
+"Template_Tags/wp_tag_cloud\">Template Tags/wp tag cloud</a>."
+msgstr ""
+"Durch Komma getrennte Liste von Tags (term_id) die ausgeschlossen werden "
+"sollen. <tt>exclude=5,27</tt> bedeutet z.B., dass die Tags mit der "
+"<tt>term_id</tt> 5 oder 27 nicht angezeigt werden. <a href=\"http://codex."
+"wordpress.org/Template_Tags/wp_tag_cloud\">Zur englischen Seite zu Template "
+"Tags/wp tag cloud</a>."
+
+#: inc/admin.php:232 inc/multiwidget.php:103
+msgid "Exclude Tags"
+msgstr "Tags ausschließen"
+
+#: inc/admin.php:234 inc/multiwidget.php:105
+msgid "Include Tags"
+msgstr "Tags einfügen"
+
+#: inc/admin.php:239 inc/admin.php:246
+msgid "Reset the tag cloud"
+msgstr "Tag Wolke zurücksetzen"
+
+#: inc/admin.php:241
+msgid ""
+"Use this if you want to delete your configuration and restore the defaults."
+msgstr "Hier können Sie die Einstellungen auf den Ursprungswert zurücksetzen"
+
+#: inc/multiwidget.php:9
+msgid ""
+"Highly configurable tag cloud for tags and other custom taxonomies. Multiple "
+"widgets possible"
+msgstr ""
+"Sehr variable tag-Wolke für tags und andere Taxonomien. Mehrere widgets "
+"sind möglich"
+
+#: inc/multiwidget.php:17
+msgid "Better Tag Cloud - multiwidget"
+msgstr "Neues widget für Bessere Tag Wolke"
+
+#: inc/nkuttler.php:25
+msgid "Do you like this plugin?"
+msgstr "Gefällt Ihnen dieses plugin?"
+
+#: inc/nkuttler.php:33
+#, php-format
+msgid "<a href=\"%s\">Rate</a> it"
+msgstr "<a href=\"%s\">Bewerten</a> Sie es"
+
+#: inc/nkuttler.php:36
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr "<a href=\"%s\">Besuchen</a> Sie seine Webseite"
+
+#: inc/nkuttler.php:39
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr "<a href=\"%s\">Abonnieren</a> Sie den feed"
+
+#: inc/nkuttler.php:42
+#, php-format
+msgid "<a href=\"%s\">Donate</a>!"
+msgstr "<a href=\"%s\">Spenden</a> Sie!"
+
+#: inc/nkuttler.php:45
+msgid "About the author"
+msgstr "Über den Autor"
+
+#: inc/nkuttler.php:48
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr "Mein <a href=\"%s\">Blog</a>"
+
+#: inc/nkuttler.php:51
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr ""
+"Abonnieren Sie den <a href=\"%s\">RSS feed</a> (als <a href=\"%s\">E-Mail</"
+"a>)"
+
+#: inc/nkuttler.php:55
+msgid "My other plugins"
+msgstr "Meine anderen plugins"
+
+#: inc/nkuttler.php:56
+msgid "<a href=\"http://www.nkuttler.de\">Translated by Nicolas</a>"
+msgstr "<a href=\"http://www.nkuttler.de\">Übersetzt von Nicolas</a>"
+
+#: inc/page.php:117
+msgid ""
+"<a href=\"http://www.nkuttler.de/wordpress/nktagcloud/\">Better Tag Cloud</a>"
+msgstr ""
+"<a href=\"http://www.nicolaskuttler.de/wordpress/nktagcloud/\">Bessere Tag "
+"Wolke</a>"
+
+#. Plugin URI of an extension
+msgid "http://www.nkuttler.de/wordpress/nktagcloud/"
+msgstr "http://www.nicolaskuttler.de/wordpress/nktagcloud/"
+
+#. Description of an extension
+msgid "A Better Tag Cloud than the default one."
+msgstr "Eine verbesserte Version der WordPress Tag Wolke"
+
+#. Author of an extension
+msgid "Nicolas Kuttler"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.nkuttler.de/"
+msgstr "http://www.nicolaskuttler.de/"
+
+#. Here are some strings that are stored in variables
+#. I think I have to add them by hand to the .pot file
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Nein"
+
+#. Tag ordering
+#. ascending
+msgid "ASC"
+msgstr "aufsteigend"
+
+#. descending
+msgid "DESC"
+msgstr "absteigend"
+
+#. random
+msgid "RAND"
+msgstr "zufällig"
+
+#. Tag cloud format
+msgid "list"
+msgstr "Liste"
+
+msgid "flat"
+msgstr "Keine Liste"
+
+#. CSS style for tag links
+msgid "underline"
+msgstr "Unterstreichen"
+
+#. Don't underline
+msgid "none"
+msgstr "Unterstreichung entfernen"
+
+#. Don't do anything
+msgid "don't touch"
+msgstr "Nichts definieren"
+
+#~ msgid "Better Tag cloud"
+#~ msgstr "Bessere Tag Wolke"
